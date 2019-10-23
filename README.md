@@ -29,6 +29,20 @@ Start Django project
 django-admin.py startproject superlists .
 ```
 
+## Adding an APP to the project
+```bash
+python manage.py startapp lists
+```
+
+## Start of Each Session
+```bash
+cd
+```
+
+```bash
+source virtualenv/Scripts/activate
+```
+
 ## CURRENT POSTIION
 
 - 3 Testing a Simple Home Page with Unit Tests
