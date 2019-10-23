@@ -28,3 +28,14 @@ Start Django project
 ```bash
 django-admin.py startproject superlists .
 ```
+
+## CURRENT POSTIION
+
+- 3 Testing a Simple Home Page with Unit Tests
+- Location on Page: Start of Page
+- [Link to Current Position](https://www.obeythetestinggoat.com/book/chapter_unit_test_first_view.html)
+
+###SCHEDULE
+
+- Complete 3 chapters a day, 26 chapters in total: Completed two the first day. So there are 24 left which should take
+me 8 days to complete.
