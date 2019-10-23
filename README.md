@@ -30,9 +30,25 @@ django-admin.py startproject superlists .
 ```
 
 ## Adding an APP to the project
+lists is the name of the app this parameter can be changed to whatever you like
 ```bash
 python manage.py startapp lists
 ```
+Add the name to the ```INSTALLED APPS``` in your settings file.
+```python
+# Application definition
+
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'lists',
+]
+```
+
 
 ## Start of Each Session
 ```bash
