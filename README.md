@@ -29,7 +29,8 @@ Start Django project
 django-admin.py startproject superlists .
 ```
 
-## Adding an APP to the project
+## PROJECT PRGORESS CODE
+###Adding an APP to the project
 lists is the name of the app this parameter can be changed to whatever you like
 ```bash
 python manage.py startapp lists
@@ -48,7 +49,29 @@ INSTALLED_APPS = [
     'lists',
 ]
 ```
+###Migrations
+[Text from the book](https://www.obeythetestinggoat.com/book/chapter_post_and_database.html)   
+"but there’s a second system that’s in charge of actually building the database called migrations. Its job is to give 
+you the ability to add and remove tables and columns, based on changes you make to your models.py files.
 
+One way to think of it is as a version control system for your database. As we’ll see later, it comes in particularly 
+useful when we need to upgrade a database that’s deployed on a live server."
+
+Code for the first database migration
+```bash
+$ python manage.py makemigrations
+```
+
+If we add a new field or table to our database or delete one then we need to make another migration. Which is done by
+running the above code.
+
+"We’ve told Django everything it needs to create the database, first via models.py and then when we created the 
+migrations file. To actually apply it to creating a real database, we use another Django Swiss Army knife manage.py 
+command, migrate:"
+
+```bash
+$ python manage.py migrate
+```
 
 ## Start of Each Session
 ```bash
@@ -70,6 +93,13 @@ python functional_tests.py
 - Location on Page: "A Little More of Our Front Page"
 - [Link to Current Position](https://www.obeythetestinggoat.com/book/chapter_philosophy_and_refactoring.html)
 - [Github Repo](https://github.com/hjwp/book-example/)
+
+## TODO List
+
+-[x] Don't save blank items for every request
+-[x] Code smell: POST test is too long?
+-[ ] Display multiple item sin the table
+-[ ] Support more than one list
 
 ###SCHEDULE
 
