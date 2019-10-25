@@ -59,11 +59,16 @@ cd
 source virtualenv/Scripts/activate
 ```
 
+##Running Tests
+```bash
+python functional_tests.py
+```
+
 ## CURRENT POSTIION
 
-- 3 Testing a Simple Home Page with Unit Tests
-- Location on Page: Start of Page
-- [Link to Current Position](https://www.obeythetestinggoat.com/book/chapter_unit_test_first_view.html)
+- Chapter 4
+- Location on Page: "A Little More of Our Front Page"
+- [Link to Current Position](https://www.obeythetestinggoat.com/book/chapter_philosophy_and_refactoring.html)
 
 ###SCHEDULE
 
