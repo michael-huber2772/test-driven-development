@@ -69,6 +69,7 @@ python functional_tests.py
 - Chapter 4
 - Location on Page: "A Little More of Our Front Page"
 - [Link to Current Position](https://www.obeythetestinggoat.com/book/chapter_philosophy_and_refactoring.html)
+- [Github Repo](https://github.com/hjwp/book-example/)
 
 ###SCHEDULE
 
