@@ -102,6 +102,10 @@ python functional_tests.py
 -[ ] Clean up after FT runs
 -[ ] Remove time.sleeps
 -[ ] Support more than one list
+-[ ] Adjust model so that items are associated with different lists
+-[ ] Add unique URLs for each list
+-[ ] Add a URL for creating a new list via POST
+-[ ] Add URLs for adding a new item to an existing list via post
 
 ###SCHEDULE
 
@@ -110,9 +114,24 @@ me 8 days to complete.
 
 ##Notes
 
+
+### GIT Notes
+#### Git Move
 Git comes with a move function so that git notices that you have moved your file and continues to track it.
 Below is the example code given from the book of how to perform a git move.
 ```bash
 $ git mv functional_tests.py functional_tests/tests.py
 $ git status # shows the rename to functional_tests/tests.py and __init__.py
+```
+
+#### Git diff
+
+"The -M flag on the git diff is a useful one. It means "detect moves", so it will notice that functional_tests.py and 
+functional_tests/tests.py are the same file, and show you a more sensible diff"
+[Link to site page where I got the quote](https://www.obeythetestinggoat.com/book/chapter_explicit_waits_1.html)
+```bash
+$ git status # functional_tests.py renamed + modified, new __init__.py
+$ git add functional_tests
+$ git diff --staged -M
+$ git commit  # msg eg "make functional_tests an app, use LiveServerTestCase"
 ```
