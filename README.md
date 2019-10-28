@@ -90,18 +90,29 @@ python functional_tests.py
 ## CURRENT POSTIION
 
 - Chapter 4
-- Location on Page: "A Little More of Our Front Page"
-- [Link to Current Position](https://www.obeythetestinggoat.com/book/chapter_philosophy_and_refactoring.html)
+- Location on Page: "Improving Functional Tests: Ensuring Isolation and Removing Voodoo Sleeps"
+- [Link to Current Position](https://www.obeythetestinggoat.com/book/chapter_explicit_waits_1.html)
 - [Github Repo](https://github.com/hjwp/book-example/)
 
 ## TODO List
 
 -[x] Don't save blank items for every request
 -[x] Code smell: POST test is too long?
--[ ] Display multiple item sin the table
+-[x] Display multiple item sin the table
+-[ ] Clean up after FT runs
+-[ ] Remove time.sleeps
 -[ ] Support more than one list
 
 ###SCHEDULE
 
 - Complete 3 chapters a day, 26 chapters in total: Completed two the first day. So there are 24 left which should take
 me 8 days to complete.
+
+##Notes
+
+Git comes with a move function so that git notices that you have moved your file and continues to track it.
+Below is the example code given from the book of how to perform a git move.
+```bash
+$ git mv functional_tests.py functional_tests/tests.py
+$ git status # shows the rename to functional_tests/tests.py and __init__.py
+```
