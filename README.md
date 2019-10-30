@@ -89,9 +89,9 @@ python functional_tests.py
 
 ## CURRENT POSTIION
 
-- Chapter 4
-- Location on Page: "Improving Functional Tests: Ensuring Isolation and Removing Voodoo Sleeps"
-- [Link to Current Position](https://www.obeythetestinggoat.com/book/chapter_explicit_waits_1.html)
+- Chapter 7
+- Location on Page: "A New View Function" Where the functional tests fail
+- [Link to Current Position](https://www.obeythetestinggoat.com/book/chapter_working_incrementally.html)
 - [Github Repo](https://github.com/hjwp/book-example/)
 
 ## TODO List
