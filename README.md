@@ -90,8 +90,8 @@ python functional_tests.py
 ## CURRENT POSTIION
 
 - Chapter 7
-- Location on Page: "A New View Function" Where the functional tests fail
-- [Link to Current Position](https://www.obeythetestinggoat.com/book/chapter_working_incrementally.html)
+- Location on Page: "Each List Should Have its Own URL"
+- [Link to Current Position](https://www.obeythetestinggoat.com/book/chapter_working_incrementally.html#_each_list_should_have_its_own_url)
 - [Github Repo](https://github.com/hjwp/book-example/)
 
 ## TODO List
@@ -99,13 +99,14 @@ python functional_tests.py
 -[x] Don't save blank items for every request
 -[x] Code smell: POST test is too long?
 -[x] Display multiple item sin the table
--[ ] Clean up after FT runs
--[ ] Remove time.sleeps
--[ ] Support more than one list
+-[x] Clean up after FT runs
+-[x] Remove time.sleeps
+-[x] Support more than one list
 -[x] Adjust model so that items are associated with different lists
--[ ] Add unique URLs for each list
+-[x] Add unique URLs for each list
 -[x] Add a URL for creating a new list via POST
--[ ] Add URLs for adding a new item to an existing list via post
+-[x] Add URLs for adding a new item to an existing list via post
+-[ ] Refactor away some duplication in urls.py
 
 ###SCHEDULE
 
