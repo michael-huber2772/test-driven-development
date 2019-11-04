@@ -90,8 +90,8 @@ python functional_tests.py
 ## CURRENT POSTIION
 
 - Chapter 7
-- Location on Page: "Each List Should Have its Own URL"
-- [Link to Current Position](https://www.obeythetestinggoat.com/book/chapter_working_incrementally.html#_each_list_should_have_its_own_url)
+- Location on Page: "What to Functionally Test About Layout and Style" down by the first functional test run
+- [Link to Current Position](https://www.obeythetestinggoat.com/book/chapter_prettification.html)
 - [Github Repo](https://github.com/hjwp/book-example/)
 
 ## TODO List
