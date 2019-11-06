@@ -91,7 +91,7 @@ python functional_tests.py
 
 - Chapter 7
 - Location on Page: "What to Functionally Test About Layout and Style" down by the first functional test run
-- [Link to Current Position](https://www.obeythetestinggoat.com/book/chapter_prettification.html)
+- [Link to Current Position](https://www.obeythetestinggoat.com/book/chapter_prettification.html#_using_bootstrap_components_to_improve_the_look_of_the_site)
 - [Github Repo](https://github.com/hjwp/book-example/)
 
 ## TODO List
