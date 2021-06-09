@@ -1,5 +1,8 @@
 # TEST DRIVEN DEVELOPMENT
 
+Another attempt at the book [Test-Driven Development with Python](https://www.obeythetestinggoat.com/pages/book.html#toc)
+This was completed in 2019
+
 ##Steps Taken
 
 ###SETUP
@@ -91,7 +94,7 @@ python functional_tests.py
 
 - Chapter 7
 - Location on Page: "What to Functionally Test About Layout and Style" down by the first functional test run
-- [Link to Current Position](https://www.obeythetestinggoat.com/book/chapter_prettification.html#_using_bootstrap_components_to_improve_the_look_of_the_site)
+- [Link to Current Position](vi)
 - [Github Repo](https://github.com/hjwp/book-example/)
 
 ## TODO List
